@@ -8,10 +8,9 @@ int main()
 
 	while (1)
 	{
-		i++;
+		printf("%d\n", i++);
 		if (sleep(1))
 			break; 
-		printf("%d\n", i);
 	}
 	return 0;
 }
