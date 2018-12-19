@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "itoa.h"
 
 int main()
 {
@@ -12,8 +11,7 @@ int main()
 		i++;
 		if (sleep(1))
 			break; 
-		itoa(i, buf, 10);
-		puts(buf);
+		printf("%d\n", i);
 	}
 	return 0;
 }
