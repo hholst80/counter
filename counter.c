@@ -4,7 +4,7 @@
 
 int main()
 {
-	unsigned long i = 0;
+	int i = 0;
 	char buf[16];
 
 	while (1)
