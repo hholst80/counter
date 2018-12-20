@@ -4,7 +4,6 @@
 int main()
 {
 	int i = 0;
-	char buf[16];
 
 	while (1)
 	{
