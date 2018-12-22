@@ -1,6 +1,6 @@
 # Example of how to use Docker multi-stage builds 
 
 This example project demonstrates how to use Docker multi-stage
-builds for a simple counter application.
+builds for a simple counter application quite minimal in size.
 
-The final image is less than 4KB in size.
+This project also demonstrates the fine arf of over-engineering.
